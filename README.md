@@ -22,17 +22,17 @@ API Gatway - Electron will communicate with two microservices
 
 Math Microservice
 
-POST QuadraticEquation
-POST Pow(x,n)
-POST Distance formula
-POST Integral
-POST Derivative
+* POST QuadraticEquation \n
+* POST Pow(x,n)
+* POST Distance formula
+* POST Integral
+* POST Derivative
 
 Results MicroService
 
-GET  lastResult
-GET  latestresults
-DELETE CLEARALL
+* GET  lastResult
+* GET  latestresults
+* DELETE CLEARALL
 
 
 
