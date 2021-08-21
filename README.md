@@ -13,5 +13,27 @@ Steps
 2) Piece together each service. 
 3) Create Middleware and routing and transport using go kit
 4) Combine Code and make sure it works
-5) Create indivudal dockerfile for each service
+5) Create individual dockerfile for each service
 6) Then use kubernetes or compose to spin up containers.
+
+
+API Gatway - Electron will communicate with two microservices
+
+
+Math Microservice
+
+POST QuadraticEquation
+POST Pow(x,n)
+POST Distance formula
+POST Integral
+POST Derivative
+
+Results MicroService
+
+GET  lastResult
+GET  latestresults
+DELETE CLEARALL
+
+
+
+
